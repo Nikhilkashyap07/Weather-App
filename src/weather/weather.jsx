@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 
 const Weather = () => {
 
-  const api_key ="9535c657a708c7836ca8fbeded828d65"
+  const api_key = import.meta.env.VITE_API_KEY
 
   
   const [city, setcity] = useState("");
